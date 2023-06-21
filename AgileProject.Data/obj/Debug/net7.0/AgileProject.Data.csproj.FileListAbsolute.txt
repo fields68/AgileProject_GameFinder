@@ -1,0 +1,5 @@
+C:\ElevenFiftyBlueBadge165\AgileProject_GameFinder\AgileProject.Data\obj\Debug\net7.0\AgileProject.Data.csproj.AssemblyReference.cache
+C:\ElevenFiftyBlueBadge165\AgileProject_GameFinder\AgileProject.Data\obj\Debug\net7.0\AgileProject.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\ElevenFiftyBlueBadge165\AgileProject_GameFinder\AgileProject.Data\obj\Debug\net7.0\AgileProject.Data.AssemblyInfoInputs.cache
+C:\ElevenFiftyBlueBadge165\AgileProject_GameFinder\AgileProject.Data\obj\Debug\net7.0\AgileProject.Data.AssemblyInfo.cs
+C:\ElevenFiftyBlueBadge165\AgileProject_GameFinder\AgileProject.Data\obj\Debug\net7.0\AgileProject.Data.csproj.CoreCompileInputs.cache
