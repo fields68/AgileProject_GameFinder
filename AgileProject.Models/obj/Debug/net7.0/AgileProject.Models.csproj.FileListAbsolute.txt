@@ -1,0 +1,15 @@
+C:\ElevenFiftyBlueBadge\AgileProject_GameFinder\AgileProject_GameFinder\AgileProject.Models\bin\Debug\net7.0\AgileProject.Models.deps.json
+C:\ElevenFiftyBlueBadge\AgileProject_GameFinder\AgileProject_GameFinder\AgileProject.Models\bin\Debug\net7.0\AgileProject.Models.dll
+C:\ElevenFiftyBlueBadge\AgileProject_GameFinder\AgileProject_GameFinder\AgileProject.Models\bin\Debug\net7.0\AgileProject.Models.pdb
+C:\ElevenFiftyBlueBadge\AgileProject_GameFinder\AgileProject_GameFinder\AgileProject.Models\bin\Debug\net7.0\AgileProject.Data.dll
+C:\ElevenFiftyBlueBadge\AgileProject_GameFinder\AgileProject_GameFinder\AgileProject.Models\bin\Debug\net7.0\AgileProject.Data.pdb
+C:\ElevenFiftyBlueBadge\AgileProject_GameFinder\AgileProject_GameFinder\AgileProject.Models\obj\Debug\net7.0\AgileProject.Models.csproj.AssemblyReference.cache
+C:\ElevenFiftyBlueBadge\AgileProject_GameFinder\AgileProject_GameFinder\AgileProject.Models\obj\Debug\net7.0\AgileProject.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\ElevenFiftyBlueBadge\AgileProject_GameFinder\AgileProject_GameFinder\AgileProject.Models\obj\Debug\net7.0\AgileProject.Models.AssemblyInfoInputs.cache
+C:\ElevenFiftyBlueBadge\AgileProject_GameFinder\AgileProject_GameFinder\AgileProject.Models\obj\Debug\net7.0\AgileProject.Models.AssemblyInfo.cs
+C:\ElevenFiftyBlueBadge\AgileProject_GameFinder\AgileProject_GameFinder\AgileProject.Models\obj\Debug\net7.0\AgileProject.Models.csproj.CoreCompileInputs.cache
+C:\ElevenFiftyBlueBadge\AgileProject_GameFinder\AgileProject_GameFinder\AgileProject.Models\obj\Debug\net7.0\AgileProject.Models.csproj.CopyComplete
+C:\ElevenFiftyBlueBadge\AgileProject_GameFinder\AgileProject_GameFinder\AgileProject.Models\obj\Debug\net7.0\AgileProject.Models.dll
+C:\ElevenFiftyBlueBadge\AgileProject_GameFinder\AgileProject_GameFinder\AgileProject.Models\obj\Debug\net7.0\refint\AgileProject.Models.dll
+C:\ElevenFiftyBlueBadge\AgileProject_GameFinder\AgileProject_GameFinder\AgileProject.Models\obj\Debug\net7.0\AgileProject.Models.pdb
+C:\ElevenFiftyBlueBadge\AgileProject_GameFinder\AgileProject_GameFinder\AgileProject.Models\obj\Debug\net7.0\ref\AgileProject.Models.dll

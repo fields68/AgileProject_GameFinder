@@ -768,24 +768,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\clarf\\.nuget\\packages\\": {}
+    "C:\\Users\\ouiza\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\ElevenFiftyBlueBadge165\\AgileProject_GameFinder\\AgileProject.Data\\AgileProject.Data.csproj",
+      "projectUniqueName": "C:\\ElevenFiftyBlueBadge\\AgileProject_GameFinder\\AgileProject_GameFinder\\AgileProject.Data\\AgileProject.Data.csproj",
       "projectName": "AgileProject.Data",
-      "projectPath": "C:\\ElevenFiftyBlueBadge165\\AgileProject_GameFinder\\AgileProject.Data\\AgileProject.Data.csproj",
-      "packagesPath": "C:\\Users\\clarf\\.nuget\\packages\\",
-      "outputPath": "C:\\ElevenFiftyBlueBadge165\\AgileProject_GameFinder\\AgileProject.Data\\obj\\",
+      "projectPath": "C:\\ElevenFiftyBlueBadge\\AgileProject_GameFinder\\AgileProject_GameFinder\\AgileProject.Data\\AgileProject.Data.csproj",
+      "packagesPath": "C:\\Users\\ouiza\\.nuget\\packages\\",
+      "outputPath": "C:\\ElevenFiftyBlueBadge\\AgileProject_GameFinder\\AgileProject_GameFinder\\AgileProject.Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\clarf\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\ouiza\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -825,7 +827,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

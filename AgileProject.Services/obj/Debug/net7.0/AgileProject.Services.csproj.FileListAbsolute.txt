@@ -1,0 +1,17 @@
+C:\ElevenFiftyBlueBadge\AgileProject_GameFinder\AgileProject_GameFinder\AgileProject.Services\bin\Debug\net7.0\AgileProject.Services.deps.json
+C:\ElevenFiftyBlueBadge\AgileProject_GameFinder\AgileProject_GameFinder\AgileProject.Services\bin\Debug\net7.0\AgileProject.Services.dll
+C:\ElevenFiftyBlueBadge\AgileProject_GameFinder\AgileProject_GameFinder\AgileProject.Services\bin\Debug\net7.0\AgileProject.Services.pdb
+C:\ElevenFiftyBlueBadge\AgileProject_GameFinder\AgileProject_GameFinder\AgileProject.Services\bin\Debug\net7.0\AgileProject.Data.dll
+C:\ElevenFiftyBlueBadge\AgileProject_GameFinder\AgileProject_GameFinder\AgileProject.Services\bin\Debug\net7.0\AgileProject.Models.dll
+C:\ElevenFiftyBlueBadge\AgileProject_GameFinder\AgileProject_GameFinder\AgileProject.Services\bin\Debug\net7.0\AgileProject.Models.pdb
+C:\ElevenFiftyBlueBadge\AgileProject_GameFinder\AgileProject_GameFinder\AgileProject.Services\bin\Debug\net7.0\AgileProject.Data.pdb
+C:\ElevenFiftyBlueBadge\AgileProject_GameFinder\AgileProject_GameFinder\AgileProject.Services\obj\Debug\net7.0\AgileProject.Services.csproj.AssemblyReference.cache
+C:\ElevenFiftyBlueBadge\AgileProject_GameFinder\AgileProject_GameFinder\AgileProject.Services\obj\Debug\net7.0\AgileProject.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\ElevenFiftyBlueBadge\AgileProject_GameFinder\AgileProject_GameFinder\AgileProject.Services\obj\Debug\net7.0\AgileProject.Services.AssemblyInfoInputs.cache
+C:\ElevenFiftyBlueBadge\AgileProject_GameFinder\AgileProject_GameFinder\AgileProject.Services\obj\Debug\net7.0\AgileProject.Services.AssemblyInfo.cs
+C:\ElevenFiftyBlueBadge\AgileProject_GameFinder\AgileProject_GameFinder\AgileProject.Services\obj\Debug\net7.0\AgileProject.Services.csproj.CoreCompileInputs.cache
+C:\ElevenFiftyBlueBadge\AgileProject_GameFinder\AgileProject_GameFinder\AgileProject.Services\obj\Debug\net7.0\AgileProject.Services.csproj.CopyComplete
+C:\ElevenFiftyBlueBadge\AgileProject_GameFinder\AgileProject_GameFinder\AgileProject.Services\obj\Debug\net7.0\AgileProject.Services.dll
+C:\ElevenFiftyBlueBadge\AgileProject_GameFinder\AgileProject_GameFinder\AgileProject.Services\obj\Debug\net7.0\refint\AgileProject.Services.dll
+C:\ElevenFiftyBlueBadge\AgileProject_GameFinder\AgileProject_GameFinder\AgileProject.Services\obj\Debug\net7.0\AgileProject.Services.pdb
+C:\ElevenFiftyBlueBadge\AgileProject_GameFinder\AgileProject_GameFinder\AgileProject.Services\obj\Debug\net7.0\ref\AgileProject.Services.dll
