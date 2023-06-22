@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
+  "dgSpecHash": "BIuPIIXvl8durK+NhVCrvLFlfTprl1iZ3GwxGxXbJADuYc7IcmoeJCoI3cKbnSC+WjxVNSSUGp7dLkP4JqTmvQ==",
+=======
   "dgSpecHash": "Z6Eq4y9ge+0YFk2BuDSwq0/qhnP0XrqqrMlQmRgFyC+8ztzfsEiSAH8LMWbaAhpg702BQpzYwDbXb255mNGBlQ==",
+>>>>>>> 0c158ca591a234c90b010b7c14840690ca737777
   "success": true,
   "projectFilePath": "C:\\ElevenFiftyBlueBadge165\\AgileProject_GameFinder\\AgileProject.API\\AgileProject.API.csproj",
   "expectedPackageFiles": [
