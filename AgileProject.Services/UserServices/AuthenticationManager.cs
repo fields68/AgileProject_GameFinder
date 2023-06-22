@@ -1,3 +1,6 @@
+using AutoMapper;
+using Microsoft.Extensions.Configuration;
+
 namespace AgileProject.Services.UserServices
 {
     public class AuthenticationManager : IAuthenticationManager
