@@ -10,6 +10,6 @@ namespace AgileProject.Data.AgileProjectContext
         {
 
         }
-
+    public DbSet<GameSystemEntity> GameSystems { get; set; }
     }
 }
