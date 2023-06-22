@@ -1,3 +1,4 @@
+using AgileProject.Models.UserModels;
 using Microsoft.AspNetCore.Identity;
 
 namespace AgileProject.Services.UserServices
