@@ -2,8 +2,6 @@
   "version": 3,
   "targets": {
     "net7.0": {
-<<<<<<< HEAD
-=======
       "Azure.Core/1.24.0": {
         "type": "package",
         "dependencies": {
@@ -48,7 +46,6 @@
           }
         }
       },
->>>>>>> 0c158ca591a234c90b010b7c14840690ca737777
       "Microsoft.AspNetCore.Cryptography.Internal/7.0.7": {
         "type": "package",
         "compile": {
@@ -95,8 +92,6 @@
           }
         }
       },
-<<<<<<< HEAD
-=======
       "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
         "type": "package",
         "compile": {
@@ -180,7 +175,6 @@
           }
         }
       },
->>>>>>> 0c158ca591a234c90b010b7c14840690ca737777
       "Microsoft.EntityFrameworkCore/7.0.7": {
         "type": "package",
         "dependencies": {
@@ -243,8 +237,6 @@
           }
         }
       },
-<<<<<<< HEAD
-=======
       "Microsoft.EntityFrameworkCore.SqlServer/7.0.7": {
         "type": "package",
         "dependencies": {
@@ -262,7 +254,6 @@
           }
         }
       },
->>>>>>> 0c158ca591a234c90b010b7c14840690ca737777
       "Microsoft.Extensions.Caching.Abstractions/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -469,8 +460,6 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-<<<<<<< HEAD
-=======
       "Microsoft.Identity.Client/4.45.0": {
         "type": "package",
         "dependencies": {
@@ -1121,17 +1110,12 @@
           }
         }
       },
->>>>>>> 0c158ca591a234c90b010b7c14840690ca737777
       "AgileProject.Data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-<<<<<<< HEAD
-          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.7"
-=======
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.7",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.7"
->>>>>>> 0c158ca591a234c90b010b7c14840690ca737777
         },
         "compile": {
           "bin/placeholder/AgileProject.Data.dll": {}
@@ -1143,8 +1127,6 @@
     }
   },
   "libraries": {
-<<<<<<< HEAD
-=======
     "Azure.Core/1.24.0": {
       "sha512": "+/qI1j2oU1S4/nvxb2k/wDsol00iGf1AyJX5g3epV7eOpQEP/2xcgh/cxgKMeFgn3U2fmgSiBnQZdkV+l5y0Uw==",
       "type": "package",
@@ -1183,7 +1165,6 @@
         "lib/netstandard2.0/Azure.Identity.xml"
       ]
     },
->>>>>>> 0c158ca591a234c90b010b7c14840690ca737777
     "Microsoft.AspNetCore.Cryptography.Internal/7.0.7": {
       "sha512": "cg/L/vXys1csH0ljfJJX9QfeHB6ezK7jwEsTg1J/hv2tZtBeeVKltXG7EWcnCt6t5yHGbmwiG2g1xNew/Tl8EQ==",
       "type": "package",
@@ -1237,8 +1218,6 @@
         "microsoft.aspnetcore.identity.entityframeworkcore.nuspec"
       ]
     },
-<<<<<<< HEAD
-=======
     "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
       "sha512": "yuvf07qFWFqtK3P/MRkEKLhn5r2UbSpVueRziSqj0yJQIKFwG1pq9mOayK3zE5qZCTs0CbrwL9M6R8VwqyGy2w==",
       "type": "package",
@@ -1409,7 +1388,6 @@
         "runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll"
       ]
     },
->>>>>>> 0c158ca591a234c90b010b7c14840690ca737777
     "Microsoft.EntityFrameworkCore/7.0.7": {
       "sha512": "t4rjHwogWpU1QRWbLlpw3JCbfiNd/CsolaWRykgjelQzS0yZlCoqDGZLpPwJXBag3aMuFqifoOHO3JbmSdikIA==",
       "type": "package",
@@ -1467,8 +1445,6 @@
         "microsoft.entityframeworkcore.relational.nuspec"
       ]
     },
-<<<<<<< HEAD
-=======
     "Microsoft.EntityFrameworkCore.SqlServer/7.0.7": {
       "sha512": "XkLuNg99Y0KHmEyygzsqCkqDHE0h3vfNNu3bTaWx8bX6nDaCmK9EWhtCrDKReMpztDKyjrIweuUz346rXk5mbQ==",
       "type": "package",
@@ -1483,7 +1459,6 @@
         "microsoft.entityframeworkcore.sqlserver.nuspec"
       ]
     },
->>>>>>> 0c158ca591a234c90b010b7c14840690ca737777
     "Microsoft.Extensions.Caching.Abstractions/7.0.0": {
       "sha512": "IeimUd0TNbhB4ded3AbgBLQv2SnsiVugDyGV1MvspQFVlA07nDC7Zul7kcwH5jWN3JiTcp/ySE83AIJo8yfKjg==",
       "type": "package",
@@ -1816,8 +1791,6 @@
         "useSharedDesignerContext.txt"
       ]
     },
-<<<<<<< HEAD
-=======
     "Microsoft.Identity.Client/4.45.0": {
       "sha512": "ircobISCLWbtE5eEoLKU+ldfZ8O41vg4lcy38KRj/znH17jvBiAl8oxcyNp89CsuqE3onxIpn21Ca7riyDDrRw==",
       "type": "package",
@@ -3386,7 +3359,6 @@
         "version.txt"
       ]
     },
->>>>>>> 0c158ca591a234c90b010b7c14840690ca737777
     "AgileProject.Data/1.0.0": {
       "type": "project",
       "path": "../AgileProject.Data/AgileProject.Data.csproj",
@@ -3399,40 +3371,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\seand\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\clarf\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\ElevenFiftyBlueBadge165\\AgileProject_GameFinder\\AgileProject.Models\\AgileProject.Models.csproj",
+      "projectUniqueName": "c:\\ElevenFiftyBlueBadge165\\AgileProject_GameFinder\\AgileProject.Models\\AgileProject.Models.csproj",
       "projectName": "AgileProject.Models",
-      "projectPath": "C:\\ElevenFiftyBlueBadge165\\AgileProject_GameFinder\\AgileProject.Models\\AgileProject.Models.csproj",
-      "packagesPath": "C:\\Users\\seand\\.nuget\\packages\\",
-      "outputPath": "C:\\ElevenFiftyBlueBadge165\\AgileProject_GameFinder\\AgileProject.Models\\obj\\",
+      "projectPath": "c:\\ElevenFiftyBlueBadge165\\AgileProject_GameFinder\\AgileProject.Models\\AgileProject.Models.csproj",
+      "packagesPath": "C:\\Users\\clarf\\.nuget\\packages\\",
+      "outputPath": "c:\\ElevenFiftyBlueBadge165\\AgileProject_GameFinder\\AgileProject.Models\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\seand\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\clarf\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\ElevenFiftyBlueBadge165\\AgileProject_GameFinder\\AgileProject.Data\\AgileProject.Data.csproj": {
-              "projectPath": "C:\\ElevenFiftyBlueBadge165\\AgileProject_GameFinder\\AgileProject.Data\\AgileProject.Data.csproj"
+            "c:\\ElevenFiftyBlueBadge165\\AgileProject_GameFinder\\AgileProject.Data\\AgileProject.Data.csproj": {
+              "projectPath": "c:\\ElevenFiftyBlueBadge165\\AgileProject_GameFinder\\AgileProject.Data\\AgileProject.Data.csproj"
             }
           }
         }
@@ -3465,5 +3429,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file c:\\ElevenFiftyBlueBadge165\\AgileProject_GameFinder\\AgileProject.Models\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
