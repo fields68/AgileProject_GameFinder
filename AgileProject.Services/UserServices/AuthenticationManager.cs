@@ -4,6 +4,6 @@ namespace AgileProject.Services.UserServices
     {
         private readonly IConfiguration _configuration;
         private readonly IMapper _mapper;
-        // private readonly UserManager
+        private readonly UserManager
     }
 }
