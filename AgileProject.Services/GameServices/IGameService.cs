@@ -1,7 +1,9 @@
+using AgileProject.Models.GameModels;
+
 namespace AgileProject.Services.GameServices
 {
-    public class IGameService
+    public interface IGameService
     {
-
+        Task<bool> UpdateGame(GameEdit model);
     }
 }
