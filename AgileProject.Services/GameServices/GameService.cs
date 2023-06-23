@@ -21,7 +21,7 @@ namespace AgileProject.Services.GameServices
 
             game.Id = model.Id;
             game.GameSystemId = model.GameSystemId;
-            game.GenreId = model.GenreId;
+            // game.GenreId = model.GenreId;
 
             await _context.SaveChangesAsync();
             return true;

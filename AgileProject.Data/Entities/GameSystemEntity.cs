@@ -7,6 +7,6 @@ namespace AgileProject.Data.Entities
         public string Model { get; set; }
         public string SKU { get; set; }
         public double Price { get; set; }
-       // public List<GameEntity>GamesOnSystem { get; set; }
+        public List<GameEntity>GamesOnSystem { get; set; }
     }
 }
