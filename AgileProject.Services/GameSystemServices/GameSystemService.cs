@@ -20,6 +20,7 @@ namespace AgileProject.Services.GameSystemServices
             _context = context;
             _mapper = mapper;
         }
+
         public async Task<bool> AddGameSystem(GameSystemCreate model)
         {
              var gameSystem = new GameSystemEntity
@@ -39,7 +40,7 @@ namespace AgileProject.Services.GameSystemServices
         {
             var gameSystem = await _context.GameSystems.SingleOrDefaultAsync(x => x.Id == model.Id);
 
-            if (gameSystem is null)
+            if (gameSystem is not null)
             {
                 gameSystem.Name = model.Name;
                 gameSystem.Model = model.Model;
@@ -80,13 +81,14 @@ namespace AgileProject.Services.GameSystemServices
            
         }
 
-        public async Task<GameSystemDetail> GetGameSystem(string name)
+        public async Task<List<GameSystemListItem>> GetGameSystem(string name)
 
         {
-            var gameSystem = await _context.GameSystems.Include(g => g.GamesOnSystem).FirstOrDefaultAsync(x => x.Name == name);
-            if(gameSystem is null)
-               return new GameSystemDetail();
-            return _mapper.Map<GameSystemDetail>(gameSystem)  ;   
+            var gameSystems = await _context.GameSystems.Where(x=>x.Name.ToLower().Contains(name)).ToListAsync();
+            if(gameSystems is null)
+               return null!;
+            else
+            return _mapper.Map<List<GameSystemListItem>>(gameSystems);   
         }
     }
 }

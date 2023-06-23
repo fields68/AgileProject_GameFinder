@@ -15,7 +15,7 @@ namespace AgileProject.Services.GameSystemServices
         public Task<bool> DeleteGameSystem(int id);
         public Task<List<GameSystemListItem>> GetGameSystems();
         public Task<GameSystemDetail> GetGameSystem(int id);
-        public Task<GameSystemDetail> GetGameSystem(string name);
+        public Task<List<GameSystemListItem>> GetGameSystem(string name);
 
         
     }

@@ -12,7 +12,7 @@ namespace AgileProject.API.Controllers
     [Route("api/[controller]")]
     public class GameSystemController : ControllerBase
     {
-         private readonly IGameSystemService _gameSystemService;
+        private readonly IGameSystemService _gameSystemService;
 
         public GameSystemController(IGameSystemService gameSystemService)
         {
@@ -47,7 +47,7 @@ namespace AgileProject.API.Controllers
                 return StatusCode(500, "Internal Server Error.");
         }
 
-         [HttpPut("{id:int}")]  
+        [HttpPut("{id:int}")]
         public async Task<IActionResult> Put(GameSystemEdit model, int id)
         {
             if (id != model.Id)
@@ -73,6 +73,14 @@ namespace AgileProject.API.Controllers
                 return Ok("GameSystem Deleted!");
             else
                 return StatusCode(500, "Internal Server Error.");
+        }
+
+        [HttpGet]
+        [Route("/GetGameSystemByName/{name}")]
+        public async Task<IActionResult> Get( string name)
+        {
+            var gameSystems = await _gameSystemService.GetGameSystem(name);
+            return Ok(gameSystems);
         }
 
     }

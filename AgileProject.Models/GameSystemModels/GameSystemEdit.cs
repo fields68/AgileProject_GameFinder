@@ -16,7 +16,6 @@ namespace AgileProject.Models.GameSystemModels
         [MaxLength(100)]
         public string SKU { get; set; }
         [Required]
-        [MaxLength(50)]
-        public double Price { get; set; }
+        public decimal Price { get; set; }
     }
 }
