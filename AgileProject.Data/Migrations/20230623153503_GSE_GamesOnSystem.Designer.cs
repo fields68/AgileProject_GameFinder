@@ -4,6 +4,7 @@ using AgileProject.Data.AgileProjectContext;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AgileProject.Data.Migrations
 {
     [DbContext(typeof(AgileProjectDBContext))]
-    partial class AgileProjectDBContextModelSnapshot : ModelSnapshot
+    [Migration("20230623153503_GSE_GamesOnSystem")]
+    partial class GSE_GamesOnSystem
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
