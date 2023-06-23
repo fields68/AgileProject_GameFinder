@@ -19,7 +19,7 @@ namespace AgileProject.Data.Entities
         // [ForeignKey(nameof(GenreId))]
         // public virtual GenreEntity Genre { get; set; }
 
-        public string UserId { get; set; }
+        public string? UserId { get; set; }
         [ForeignKey(nameof(UserId))]
         public virtual UserEntity User { get; set; }
 
