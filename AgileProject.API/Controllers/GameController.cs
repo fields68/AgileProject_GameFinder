@@ -9,6 +9,13 @@ namespace AgileProject.API.Controllers
     public class GameController : ControllerBase
     {
         private readonly IGameService _gameService;
+
+        public GameController(IGameService gameService)
+        {
+            _gameService = gameService;
+        }
+
+        [HttpPut("{id:int}")]
         public async Task<IActionResult> Put(GameEdit model, int id)
         {
             if (id != model.Id)
