@@ -20,10 +20,6 @@ namespace AgileProject.Services.GameSystemServices
             _context = context;
             _mapper = mapper;
         }
-
-
-
-
         public async Task<bool> AddGameSystem(GameSystemCreate model)
         {
              var gameSystem = new GameSystemEntity
@@ -41,7 +37,7 @@ namespace AgileProject.Services.GameSystemServices
 
          public async Task<bool> UpdateGameSystem(GameSystemEdit model)
         {
-            var gameSystem = await _context.GameSystems.Include(g => g.Id).SingleOrDefaultAsync(x => x.Id == model.Id);
+            var gameSystem = await _context.GameSystems.SingleOrDefaultAsync(x => x.Id == model.Id);
 
             if (gameSystem is null)
             {
@@ -75,7 +71,7 @@ namespace AgileProject.Services.GameSystemServices
 
         public async Task<GameSystemDetail> GetGameSystem(int id)
         {
-             var gameSystem = await _context.GameSystems.Include(g => g.Id).FirstOrDefaultAsync(x => x.Id == id);
+             var gameSystem = await _context.GameSystems.Include(g => g.GamesOnSystem).FirstOrDefaultAsync(x => x.Id == id);
 
             if (gameSystem is null)
                 return new GameSystemDetail ();
@@ -87,7 +83,7 @@ namespace AgileProject.Services.GameSystemServices
         public async Task<GameSystemDetail> GetGameSystem(string name)
 
         {
-            var gameSystem = await _context.GameSystems.Include(g => g.Name).FirstOrDefaultAsync(x => x.Name == name);
+            var gameSystem = await _context.GameSystems.Include(g => g.GamesOnSystem).FirstOrDefaultAsync(x => x.Name == name);
             if(gameSystem is null)
                return new GameSystemDetail();
             return _mapper.Map<GameSystemDetail>(gameSystem)  ;   
