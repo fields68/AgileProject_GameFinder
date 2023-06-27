@@ -23,3 +23,12 @@ C:\ElevenFiftyBlueBadge165\AgileProject_GameFinder\AgileProject.Services\obj\Deb
 C:\ElevenFiftyBlueBadge165\AgileProject_GameFinder\AgileProject.Services\obj\Debug\net7.0\AgileProject.Services.dll
 C:\ElevenFiftyBlueBadge165\AgileProject_GameFinder\AgileProject.Services\obj\Debug\net7.0\refint\AgileProject.Services.dll
 C:\ElevenFiftyBlueBadge165\AgileProject_GameFinder\AgileProject.Services\obj\Debug\net7.0\AgileProject.Services.pdb
+C:\ElevenFiftyBlueBadge165\AgileProject_GameFinder\AgileProject.Services\bin\Debug\net7.0\AgileProject.Services.deps.json
+C:\ElevenFiftyBlueBadge165\AgileProject_GameFinder\AgileProject.Services\bin\Debug\net7.0\AgileProject.Services.dll
+C:\ElevenFiftyBlueBadge165\AgileProject_GameFinder\AgileProject.Services\bin\Debug\net7.0\AgileProject.Services.pdb
+C:\ElevenFiftyBlueBadge165\AgileProject_GameFinder\AgileProject.Services\bin\Debug\net7.0\AgileProject.Data.dll
+C:\ElevenFiftyBlueBadge165\AgileProject_GameFinder\AgileProject.Services\bin\Debug\net7.0\AgileProject.Models.dll
+C:\ElevenFiftyBlueBadge165\AgileProject_GameFinder\AgileProject.Services\bin\Debug\net7.0\AgileProject.Models.pdb
+C:\ElevenFiftyBlueBadge165\AgileProject_GameFinder\AgileProject.Services\bin\Debug\net7.0\AgileProject.Data.pdb
+C:\ElevenFiftyBlueBadge165\AgileProject_GameFinder\AgileProject.Services\obj\Debug\net7.0\AgileProject.Services.csproj.CopyComplete
+C:\ElevenFiftyBlueBadge165\AgileProject_GameFinder\AgileProject.Services\obj\Debug\net7.0\ref\AgileProject.Services.dll
