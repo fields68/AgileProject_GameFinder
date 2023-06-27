@@ -11,7 +11,7 @@ namespace AgileProject.API.Controllers
     [Route("api/[controller]")]
     public class GenreController : ControllerBase
     {
-        private readonly IGenreService _genreService
+        private readonly IGenreService _genreService;
 
         public GenreController(IGenreService genreService)
         {
