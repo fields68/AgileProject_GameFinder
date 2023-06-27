@@ -15,6 +15,15 @@ namespace AgileProject.API.Controllers
             _gameService = gameService;
         }
 
+        [HttpDelete]
+        public async Task<IActionResult> Delete(int id)
+        {
+            if (await _gameService.DeleteGame(id))
+                return Ok("Like deleted!");
+            else
+                return StatusCode(500, "Internal Server Error");
+        }
+
         [HttpPut("{id:int}")]
         public async Task<IActionResult> Put(GameEdit model, int id)
         {
