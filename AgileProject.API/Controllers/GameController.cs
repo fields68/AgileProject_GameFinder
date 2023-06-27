@@ -15,6 +15,18 @@ namespace AgileProject.API.Controllers
             _gameService = gameService;
         }
 
+        [HttpPost]
+        public async Task<IActionResult> Post(GameCreate model)
+        {
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+            if (await _gameService.AddGame(model))
+                return Ok("Success! Game Created!");
+            else
+                return StatusCode(500, "Internal Server Error");
+
+        }
+
         [HttpDelete]
         public async Task<IActionResult> Delete(int id)
         {
