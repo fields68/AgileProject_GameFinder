@@ -10,16 +10,17 @@
         "projectUniqueName": "C:\\ElevenFiftyBlueBadge165\\AgileProject_GameFinder\\AgileProject.API\\AgileProject.API.csproj",
         "projectName": "AgileProject.API",
         "projectPath": "C:\\ElevenFiftyBlueBadge165\\AgileProject_GameFinder\\AgileProject.API\\AgileProject.API.csproj",
-        "packagesPath": "C:\\Users\\clarf\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\kcami\\.nuget\\packages\\",
         "outputPath": "C:\\ElevenFiftyBlueBadge165\\AgileProject_GameFinder\\AgileProject.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\clarf\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\kcami\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -94,7 +95,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -104,11 +105,11 @@
         "projectUniqueName": "C:\\ElevenFiftyBlueBadge165\\AgileProject_GameFinder\\AgileProject.Data\\AgileProject.Data.csproj",
         "projectName": "AgileProject.Data",
         "projectPath": "C:\\ElevenFiftyBlueBadge165\\AgileProject_GameFinder\\AgileProject.Data\\AgileProject.Data.csproj",
-        "packagesPath": "C:\\Users\\clarf\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\kcami\\.nuget\\packages\\",
         "outputPath": "C:\\ElevenFiftyBlueBadge165\\AgileProject_GameFinder\\AgileProject.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\clarf\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\kcami\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -163,7 +164,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -173,11 +174,11 @@
         "projectUniqueName": "C:\\ElevenFiftyBlueBadge165\\AgileProject_GameFinder\\AgileProject.Models\\AgileProject.Models.csproj",
         "projectName": "AgileProject.Models",
         "projectPath": "C:\\ElevenFiftyBlueBadge165\\AgileProject_GameFinder\\AgileProject.Models\\AgileProject.Models.csproj",
-        "packagesPath": "C:\\Users\\clarf\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\kcami\\.nuget\\packages\\",
         "outputPath": "C:\\ElevenFiftyBlueBadge165\\AgileProject_GameFinder\\AgileProject.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\clarf\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\kcami\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -220,7 +221,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -230,11 +231,11 @@
         "projectUniqueName": "C:\\ElevenFiftyBlueBadge165\\AgileProject_GameFinder\\AgileProject.Services\\AgileProject.Services.csproj",
         "projectName": "AgileProject.Services",
         "projectPath": "C:\\ElevenFiftyBlueBadge165\\AgileProject_GameFinder\\AgileProject.Services\\AgileProject.Services.csproj",
-        "packagesPath": "C:\\Users\\clarf\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\kcami\\.nuget\\packages\\",
         "outputPath": "C:\\ElevenFiftyBlueBadge165\\AgileProject_GameFinder\\AgileProject.Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\clarf\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\kcami\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -286,7 +287,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     }
