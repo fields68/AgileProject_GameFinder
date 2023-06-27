@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+=======
 C:\ElevenFiftyBlueBadge\AgileProject_GameFinder\AgileProject_GameFinder\AgileProject.Data\obj\Debug\net7.0\AgileProject.Data.csproj.AssemblyReference.cache
 C:\ElevenFiftyBlueBadge\AgileProject_GameFinder\AgileProject_GameFinder\AgileProject.Data\obj\Debug\net7.0\AgileProject.Data.GeneratedMSBuildEditorConfig.editorconfig
 C:\ElevenFiftyBlueBadge\AgileProject_GameFinder\AgileProject_GameFinder\AgileProject.Data\obj\Debug\net7.0\AgileProject.Data.AssemblyInfoInputs.cache
@@ -16,6 +18,7 @@ C:\ElevenFiftyBlueBadge165\AgileProject_GameFinder\AgileProject.Data\bin\Debug\n
 C:\ElevenFiftyBlueBadge165\AgileProject_GameFinder\AgileProject.Data\bin\Debug\net7.0\AgileProject.Data.runtimeconfig.json
 C:\ElevenFiftyBlueBadge165\AgileProject_GameFinder\AgileProject.Data\bin\Debug\net7.0\AgileProject.Data.dll
 C:\ElevenFiftyBlueBadge165\AgileProject_GameFinder\AgileProject.Data\bin\Debug\net7.0\AgileProject.Data.pdb
+>>>>>>> 0c158ca591a234c90b010b7c14840690ca737777
 C:\ElevenFiftyBlueBadge165\AgileProject_GameFinder\AgileProject.Data\obj\Debug\net7.0\AgileProject.Data.csproj.AssemblyReference.cache
 C:\ElevenFiftyBlueBadge165\AgileProject_GameFinder\AgileProject.Data\obj\Debug\net7.0\AgileProject.Data.GeneratedMSBuildEditorConfig.editorconfig
 C:\ElevenFiftyBlueBadge165\AgileProject_GameFinder\AgileProject.Data\obj\Debug\net7.0\AgileProject.Data.AssemblyInfoInputs.cache

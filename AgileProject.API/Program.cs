@@ -31,22 +31,22 @@ builder.Services.AddIdentityCore<UserEntity>()
                 .AddRoles<IdentityRole>()
                 .AddEntityFrameworkStores<AgileProjectDBContext>();
 
-builder.Services.AddAuthentication(opt =>
-{
-    opt.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-    opt.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
-}).AddJwtBearer(opt =>
-{
-    opt.TokenValidationParameters = new TokenValidationParameters
-    {
-        ValidateIssuerSigningKey = true,
-        ValidateIssuer = true, //things come from us w/n the API
-        ValidateAudience = true, // things are comming from a valid outside sorce
-        ValidIssuer = builder.Configuration["Jwt:Issuer"],
-        ValidAudience = builder.Configuration["Jwt:Audience"],
-        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]!))
-    };
-});
+// builder.Services.AddAuthentication(opt =>
+// {
+//     opt.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+//     opt.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+// }).AddJwtBearer(opt =>
+// {
+//     opt.TokenValidationParameters = new TokenValidationParameters
+//     {
+//         ValidateIssuerSigningKey = true,
+//         ValidateIssuer = true, //things come from us w/n the API
+//         ValidateAudience = true, // things are comming from a valid outside sorce
+//         ValidIssuer = builder.Configuration["Jwt:Issuer"],
+//         ValidAudience = builder.Configuration["Jwt:Audience"],
+//         IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]!))
+//     };
+// });
 builder.Services.AddAutoMapper(typeof(MappingConfigurations));
 
 builder.Services.AddHttpContextAccessor();
