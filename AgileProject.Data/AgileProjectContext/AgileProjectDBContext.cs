@@ -11,6 +11,7 @@ namespace AgileProject.Data.AgileProjectContext
 
         }
         public DbSet<GameSystemEntity> GameSystems { get; set; }
+        public DbSet<GenreEntity> Genre { get; set; }
 
         public DbSet<GameEntity> Games { get; set; }
 

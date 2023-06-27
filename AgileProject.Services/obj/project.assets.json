@@ -3450,7 +3450,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\clarf\\.nuget\\packages\\": {}
+    "C:\\Users\\kcami\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -3458,11 +3458,11 @@
       "projectUniqueName": "C:\\ElevenFiftyBlueBadge165\\AgileProject_GameFinder\\AgileProject.Services\\AgileProject.Services.csproj",
       "projectName": "AgileProject.Services",
       "projectPath": "C:\\ElevenFiftyBlueBadge165\\AgileProject_GameFinder\\AgileProject.Services\\AgileProject.Services.csproj",
-      "packagesPath": "C:\\Users\\clarf\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\kcami\\.nuget\\packages\\",
       "outputPath": "C:\\ElevenFiftyBlueBadge165\\AgileProject_GameFinder\\AgileProject.Services\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\clarf\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\kcami\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -3514,8 +3514,16 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\ElevenFiftyBlueBadge165\\AgileProject_GameFinder\\AgileProject.Services\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
