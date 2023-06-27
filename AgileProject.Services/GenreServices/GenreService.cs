@@ -16,7 +16,7 @@ namespace AgileProject.Services.GenreServices
             _mapper = mapper;
         }
 
-        public Task<GenreDetail> GetDetail()
+        public Task<GenreDetail> GetDetail(int id)
         {
             throw new NotImplementedException();
         }
