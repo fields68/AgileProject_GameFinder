@@ -3450,8 +3450,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\seand\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\clarf\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -3459,23 +3458,16 @@
       "projectUniqueName": "C:\\ElevenFiftyBlueBadge165\\AgileProject_GameFinder\\AgileProject.Services\\AgileProject.Services.csproj",
       "projectName": "AgileProject.Services",
       "projectPath": "C:\\ElevenFiftyBlueBadge165\\AgileProject_GameFinder\\AgileProject.Services\\AgileProject.Services.csproj",
-      "packagesPath": "C:\\Users\\seand\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\clarf\\.nuget\\packages\\",
       "outputPath": "C:\\ElevenFiftyBlueBadge165\\AgileProject_GameFinder\\AgileProject.Services\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\seand\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\clarf\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
