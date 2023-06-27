@@ -1,5 +1,7 @@
 using AgileProject.Data.AgileProjectContext;
+using AgileProject.Models.GenreModels;
 using AutoMapper;
+using Microsoft.EntityFrameworkCore;
 
 namespace AgileProject.Services.GenreServices
 {
@@ -14,9 +16,15 @@ namespace AgileProject.Services.GenreServices
             _mapper = mapper;
         }
 
-        // public Task<GenreDetail> GetDetail;
+        public Task<GenreDetail> GetDetail()
+        {
+            throw new NotImplementedException();
+        }
 
-        // public Task<List<GenreListItem>> GetGenreLists();
-        
+        public async Task<List<GenreListItem>> GetGenreLists()
+        {
+            var genre = await _context.Genre.ToListAsync();
+            return _mapper.Map<List<GenreListItem>>(genre);
+        }
     }
 }
